@@ -227,7 +227,7 @@ body {
     text-align: center;
 }
 
-#content .member-list {
+#content .ban-list{
     margin-top: 47px;
 
 }
@@ -235,7 +235,7 @@ body {
 
     
 
-#content .member-name {
+#content .ban-name {
     font-size: 15px;
     margin-bottom: 15px;
 
@@ -248,17 +248,17 @@ body {
 }
 
 /* tour section */
-.tour-section {
+.date-section {
     background-color:yellow;
 }
 
-.ticket-list {
+.date-list {
     background-color: #fff;
     margin-top: 40px;
     list-style-type: none;
 }
 
-.ticket-list li {
+.date-list li {
     font-size: 15px;
     padding: 8px 16px 8px 16px;
     border-bottom: 1px solid rgb(221, 221, 221);
@@ -266,32 +266,22 @@ body {
 
 }
 
-.ticket-list .sold-out {
+.date-list .done {
     background-color: #f44336;
     margin-left: 16px;
     color: #fff;
     padding: 0 8px;
 }
 
-.ticket-list .quantity {
-    float: right;
-    color: #fff;
-    width: 24px;
-    height: 24px;
-    background-color: #000;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 24px;
-    margin-top: -3px;
-}
 
-/* places*/
-.places-list {
+
+/* plan-time */
+.plans-list {
    
     margin-top:32px;
 }
 
-.places-item {
+.plans-item {
    
     width: calc(100%/3);
 
@@ -299,23 +289,23 @@ body {
 
 }
 
-.place-heading {
+.plan-heading {
     font-size: 15px;
     margin-top: 15px;
 }
 
-.places-img:hover {
+.plans-img:hover {
     opacity: 0.7;
 }
 
-.places-img {
+.plans-img {
     width: 100%;
     display: block;
 }
 .open-don{
     height:0%;
 }
-.place-body {
+.plan-body {
     background-color: #fff;
     padding: 0.15px 16px 0.15px 16px;
     box-sizing: border-box;
@@ -323,18 +313,18 @@ body {
 
 }
 
-.place-time {
+.plan-time {
     font-size: 15px;
     margin: 15px 0;
     opacity: 0.6;
 }
 
-.place-desc {
+.plan-desc {
     font-size: 15px;
     margin-bottom: 18px;
 }
 
-.place-buy-btn {
+.plan-chek-info {
     font-size: 15px;
     color: #fff;
     text-decoration: none;
@@ -345,7 +335,7 @@ body {
     border: none;
 }
 
-.place-buy-btn:hover {
+.plan-chek-info:hover {
     cursor: pointer;
     color: #000;
     background-color: #ccc
@@ -423,27 +413,7 @@ body {
 }
 
 
-header.modal-header {
-    background-color: #009688;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 30px;
-    color: #fff;
-    letter-spacing: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-}
-
-.modal .modal-body {
-    padding: 0.15px 16px 0.15px 16px;
-}
-
-.modal .suit-icon {
-    margin-right: 10px;
-    font-size: 29px;
-}
 
 .modal-close {
     position: absolute;
@@ -459,44 +429,10 @@ header.modal-header {
     cursor: pointer;
 }
 
-.modal-label {
-    display: block;
-    font-size: 15px;
-    margin: 15px 0;
 
-}
 
-.modal-input {
-    width: 868px;
-    height: 40.5px;
-    border: 1px solid #ccc;
-}
 
-#pay {
-    background-color: #009688;
-    width: 865px;
-    height: 54 px;
-    border: none;
-    font-size: 15px;
-    color: #fff;
-    padding: 16px 16px 16px 16px;
-    margin: 16px 0px 16px 0px;
-}
 
-.modal-help {
-    font-size: 15px;
-
-    padding-right: 16px;
-    float: right;
-    margin-top: 20 px;
-
-}
-
-#pay:hover {
-    background-color: #ccc;
-    cursor: pointer;
-    color: #000;
-}
 
 @keyframes modalIn {
     from {
